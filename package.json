@@ -1,0 +1,42 @@
+{
+    "name": "backbone-js-snippets",
+    "displayName": "BACKBONE.JS Snippets",
+    "description": "backbone js snippet for development",
+    "version": "1.0.0",
+    "publisher": "Hridoy",
+    "icon": "img/icon.png",
+    "galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hridoy/backbone-js-snippets-vscode"
+    },
+    "keywords": [
+        "Backbone",
+        "Backbone.js",
+        "Backbone.js Snippets",
+        "Backbonejs",
+        "javascript"
+    ],
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/default.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/extra.json"
+            }
+        ]
+    }
+}
